@@ -82,3 +82,46 @@
 }
 
 /* about section end here  */
+
+/* service section start  */
+
+.services{
+    background-image: url('./images/background.png'), linear-gradient(45deg, rgb(8, 8, 8), rgb(53, 53, 53));
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 50px;
+}
+.services-title{
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+}
+
+.box{
+    width: 200px;
+    height: 280px;
+    box-shadow: 4px 4px 15px gray;
+    background-color: black;
+    text-align: center;
+    padding: 15px;
+    color: white;
+    box-shadow: 4px 2px 105px gray;
+    border-radius: 10px;
+}
+.icon{
+    width: 70px;
+}
+.box-title{
+    padding: 10px;
+}
+.box-btn{
+    background-color: #1c1b1b;
+    margin-top: 20px;
+}
+.service-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+/* service section end  */
