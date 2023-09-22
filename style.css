@@ -3,6 +3,7 @@
     padding: 0;
 }
 
+/* nav section start */
 .menu-container{
     background-color: #424141;
     padding: 20px;
@@ -31,3 +32,44 @@
 .items:hover{
     color: blue;
 }
+/* nav section end */
+
+/*  banner section start */
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    align-items: center;
+    color: white;
+    background-image: url('./images/background.png'), linear-gradient(45deg, rgb(8, 8, 8), rgb(53, 53, 53));
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.title{
+    font-size: 55px;
+    font-weight: bold;
+}
+.description{
+    font-size: 18px;
+    margin: 15px 0;
+}
+.btn{
+    padding: 13px 20px;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+.banner-img{
+    width: 300px;
+}
+
+/* banner section end  */
+
+/* about section start here  */
+
+
+
+/* about section end here  */
