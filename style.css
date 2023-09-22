@@ -59,7 +59,7 @@
     padding: 13px 20px;
     background-color: red;
     border: none;
-    border-radius: 5px;
+    border-radius: 3px;
     color: white;
 }
 .banner-img{
@@ -70,6 +70,15 @@
 
 /* about section start here  */
 
-
+.about-title{
+    text-align: center;
+    padding: 10px;
+}
+.about-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
 
 /* about section end here  */
